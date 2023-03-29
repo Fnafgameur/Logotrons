@@ -1,0 +1,7 @@
+name: Logotrons
+version: '${version}'
+main: fr.fnafgameur.logotrons.Main
+api-version: 1.16
+commands:
+  logotrons:
+    description: "Logotrons command"

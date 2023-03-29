@@ -21,10 +21,15 @@ public class LogotronsCommand implements CommandExecutor {
         if (!(sender instanceof Player player)) {
             return false;
         }
-        if (!player.hasPermission("logotrons.admin")) {
+        if (!player.isOp()) {
             player.sendMessage("§cYou don't have permission to use this command !");
             return false;
         }
+        // TODO: add permission
+        //if (!player.hasPermission("logotrons.admin")) {
+        //    player.sendMessage("§cYou don't have permission to use this command !");
+        //    return false;
+        //}
 
         if (args.length == 0 || args[0].equalsIgnoreCase("help")) {
             player.sendMessage("§6§lLogotrons Help:");

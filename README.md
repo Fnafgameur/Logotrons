@@ -6,4 +6,6 @@ A Minecraft 1.16.5 spigot plugin to register specific logs of events that can be
 -Having access to your server files where the txt file are stored (in the logotrons plugin folder)
 
 # Commands
-TODO
+/logotrons addblock - Add the held block to the list of registered blocks for the block break event
+/logotrons removeblock - Remove the block specified in the command from the list of registered blocks
+/logotrons settings - Allows you to change the event registered by the plugin

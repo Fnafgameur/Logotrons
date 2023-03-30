@@ -9,5 +9,7 @@ A Minecraft 1.16.5 spigot plugin to register specific logs of events that can be
 To use plugin commands /logotrons:
 
 addblock - Add the held block to the list of registered blocks for the block break event
+
 removeblock - Remove the block specified in the command from the list of registered blocks
+
 settings - Allows you to change the event registered by the plugin
